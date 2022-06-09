@@ -6,4 +6,4 @@ app.get("/", (req, res) => {
   res.json({ message: "Bienvenido a mi api" });
 });
 
-app.listen(5000, () => console.log("servidor corriendo en pueto 5000"));
+app.listen(5001, () => console.log("servidor corriendo en pueto 5000"));
