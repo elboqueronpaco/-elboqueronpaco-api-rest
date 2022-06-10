@@ -5,9 +5,9 @@
   "main": "src/index.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon index.js",
-    "build": "node index.js",
-    "start": "node index.js"
+    "dev": "NODE_ENV=devlopment nodemon index.js",
+    "build": "NODE_ENV=production node index.js",
+    "start": "NODE_ENV=production node index.js"
   },
   "author": "",
   "license": "MIT",
